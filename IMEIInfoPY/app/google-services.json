@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "983711899063",
+    "firebase_url": "https://imeiinfopy.firebaseio.com",
+    "project_id": "imeiinfopy",
+    "storage_bucket": "imeiinfopy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:983711899063:android:21bb5549cda11eca",
+        "android_client_info": {
+          "package_name": "com.imeiinfopy.imeiinfopy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "983711899063-8k2ha9mtba9uks0qod4r82ob158li8am.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "983711899063-8k2ha9mtba9uks0qod4r82ob158li8am.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnVSLSjASfMq8OsPSJD1f6g1aBTGtjj0k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
