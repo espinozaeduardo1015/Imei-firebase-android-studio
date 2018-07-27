@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <WebView
+        android:id="@+id/webWiewEncontrar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    </WebView>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/conatel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_margin="1dp"
+            android:drawablePadding="1dp"
+            android:drawableStart="@drawable/ic_open_in_new_black_24dp"
+            android:text="CONSULTA TU IMEI En.https://imei.conatel.gov.py/"
+            android:textAllCaps="false"
+
+            android:textColor="#000000"
+            android:tint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fuente: CONATEL © 2017- Todos los derechos reservados."
+            android:textColor="@color/white"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Desarrollado por CIA-FPUNA © 2017."
+            android:textColor="@color/white"
+
+            />
+
+        <!--<ImageView-->
+        <!--android:src="@drawable/ic_home_black_24dp"-->
+        <!--android:layout_width="75dp"-->
+        <!--android:layout_height="75dp" />-->
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

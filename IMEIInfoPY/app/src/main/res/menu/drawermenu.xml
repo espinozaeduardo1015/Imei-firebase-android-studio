@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/buscar" android:title="Revisar estado" android:icon="@drawable/ic_launcher_background"/>
+    <item android:id="@+id/registrar" android:title="Registrar Imei" android:icon="@drawable/ic_launcher_background"/>
+    <item android:id="@+id/reportar" android:title="Reportar" android:icon="@drawable/ic_launcher_background"/>
+    <item android:id="@+id/desbloquear" android:title="Desbloquear" android:icon="@drawable/ic_launcher_background"/>
+
+</menu>

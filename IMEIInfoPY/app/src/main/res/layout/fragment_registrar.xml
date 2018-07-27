@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <!--tools:context=".fragmen.RegistrarFragment">-->
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1A237E"
+            android:orientation="vertical"
+            android:padding="50dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*Registra el numero Imei de tu celular  para reportar en caso de extravios o robos."
+                android:textColor="#fff"
+                android:textSize="20dp"
+
+                />
+
+            <Button
+                android:id="@+id/Registrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="15dp"
+                android:text="@string/text_button_createregistro"
+                android:theme="@style/RaisedButtonDark" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AYUDA A COMBATIR EL ROBO DE LOS CELULARES"
+                android:textColor="#fff"
+                android:textSize="20dp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="12dp"
+                android:text="*Preguntas frecuentes al chequear un celular online"
+                android:textColor="#fff"
+                android:textSize="20dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="¿Qué es el IMEI? ¿Cómo lo obtengo?"
+                android:textColor="#fff"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Me robaron el celular. ¿Cómo lo incluyo en la lista de reportados?
+"
+                android:textColor="#fff"
+                android:textSize="15dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Quiero comprar un celular usado. ¿Qué debo comprobar antes de realizar la compra?"
+                android:textColor="#fff"
+                android:textSize="15dp"
+
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/pregunta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/buttonstyle2"
+                    android:padding="20dp"
+                    android:text="si tienes mas dudas"
+                    android:textColor="#fff" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

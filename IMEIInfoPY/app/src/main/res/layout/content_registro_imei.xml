@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+    tools:context=".Registro_imei"
+    >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:background="#0288D1"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        >
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_horizontal_login"
+
+            android:orientation="vertical"
+
+            >
+
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:theme="@style/EditTextBlack"-->
+            <!--android:layout_marginTop="@dimen/edittext_margin_createaccount"-->
+            <!--&gt;-->
+
+            <!--&lt;!&ndash;<android.support.design.widget.TextInputEditText&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/email"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:hint="@string/hint_email"/>&ndash;&gt;-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity= "center_horizontal"
+                android:drawSelectorOnTop="true"
+                android:layout_marginBottom="30dp"
+                android:paddingLeft="50dp"
+                android:textSize="55dp"
+                android:layout_marginTop="30dp"
+                android:typeface="serif"
+                android:inputType="textMultiLine"
+                android:ems="15"
+                android:id="@+id/t_text"
+                android:text="Info IMEI"
+                android:longClickable="true"
+                android:textStyle="italic"
+                android:layout_below="@+id/textView6"
+                android:layout_centerHorizontal="true"
+                android:scrollbars = "vertical"/>
+
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/edittext_margin_createaccount"
+                >
+
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/marca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:hint="@string/marca" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/edittext_margin_createaccount"
+                >
+
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/modelo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="true"
+                    android:hint="@string/modelo" />
+
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/edittext_margin_createaccount"
+                >
+
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/operadora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/operadora" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/EditTextBlack"
+                android:layout_marginTop="@dimen/edittext_margin_createaccount"
+                >
+
+
+                <android.support.design.widget.TextInputEditText
+                    android:id="@+id/input_imei"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:hint="@string/imei" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:theme="@style/EditTextBlack"-->
+            <!--android:layout_marginTop="@dimen/edittext_margin_createaccount"-->
+            <!--&gt;-->
+
+
+            <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:id="@+id/pais"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/pasis"-->
+            <!--/>-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+            <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:theme="@style/EditTextBlack"-->
+            <!--android:layout_marginTop="@dimen/edittext_margin_createaccount"-->
+            <!--&gt;-->
+
+
+            <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:id="@+id/name"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="@string/imei"-->
+            <!--/>-->
+
+            <!--</android.support.design.widget.TextInputLayout>-->
+            <!--   <TextView
+                   android:id="@+id/textView2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_alignParentTop="true"
+                   android:layout_centerHorizontal="true"
+                   android:layout_marginTop="50dp"
+                   android:textColor="#4169E1"
+                   android:textSize="18sp"
+                   android:text="IMEI Number" />
+
+               <TextView
+                   android:id="@+id/input_imeii"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_centerInParent="true"
+                   android:text="IMEI"
+                   android:textSize="15sp" />
+
+
+               <TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:id="@+id/textView2"/>-->
+
+
+            <Button
+                android:id="@+id/botoRegistrarImei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_button_createregistro"
+                android:theme="@style/RaisedButtonDark" />
+
+            <TextView
+                android:id="@+id/txtmensaje"
+                android:layout_width="match_parent"
+                android:layout_height="55dp" />
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>
